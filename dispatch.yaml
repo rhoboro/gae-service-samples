@@ -1,0 +1,7 @@
+dispatch:
+
+- url: "gae-service-samples.appspot.com/"
+  module: default
+
+- url: "*/third-party-lib/*"
+  module: third-party-lib

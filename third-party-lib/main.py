@@ -60,4 +60,4 @@ app = falcon.API()
 articleResource = ArticleResource()
 
 # article will handle all requests to the '/articles' URL path
-app.add_route('/api/articles', articleResource)
+app.add_route('/third-party-lib/articles', articleResource)
