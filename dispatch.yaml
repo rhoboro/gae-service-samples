@@ -5,3 +5,6 @@ dispatch:
 
 - url: "*/third-party-lib/*"
   module: third-party-lib
+
+- url: "*/file-handler/*"
+  module: file-handler

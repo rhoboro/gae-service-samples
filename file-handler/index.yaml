@@ -1,0 +1,7 @@
+indexes:
+
+- kind: GSFile
+  properties:
+  - name: filename
+  - name: creation
+    direction: desc

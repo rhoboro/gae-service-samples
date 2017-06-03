@@ -44,3 +44,13 @@ $ dev_appserver.py .
 #
 #{"articles": []}
 ```
+
+## file-handler
+
+ファイルのアップロードダウンロードを行うサンプルプロジェクト
+
+```bash
+$ curl -F 'file=@filename' `curl https://gae-service-samples.appspot.com/file-handler/upload`
+# https://gae-service-samples.appspot.com/file-handler/download/filename にアクセスするとダウンロードが始まります
+```
+
